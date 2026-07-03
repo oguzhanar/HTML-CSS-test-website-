@@ -1,0 +1,414 @@
+@font-face {
+  font-family: 'ProRacing';
+  src: url('fonts/ProRacing.otf') format('opentype');
+}
+@font-face {
+  font-family: 'WalkwaySemiBold';
+  src: url('fonts/WalkwaySemiBold.ttf');
+}
+@font-face {
+  font-family: 'WalkwayUltraBold';
+  src: url('fonts/WalkwayUltraBold.ttf');
+}
+@font-face {
+  font-family: 'KenyanCoffeeBd';
+  src: url('fonts/KenyanCoffeeBd.otf') format('opentype');
+}
+
+KenyanCoffeeBd
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  line-height: 1.5;
+}
+
+#marabalar {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 40px;
+  font-family: 'ProRacing', sans-serif;
+}
+div ul li{
+  list-style-type: none;
+  
+}
+
+.mseriescar {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.table-container {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 60px;   
+  top:  100px;
+}
+
+table {
+  width: 60%;
+  height: 100px;
+  max-width: 860px;
+  
+}
+
+.maracback{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(resimler/m3.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin-top: -35px;
+    
+}
+
+
+.m1background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(resimler/m1.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 10px ridge #000000;
+  opacity: 1;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 30px;
+}
+.m2background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(resimler/m2.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 10px ridge #000000;
+  opacity: 1;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 30px;
+}
+.m3background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(resimler/m3.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 10px ridge #000000;
+  opacity: 1;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 30px;
+}
+.m4background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(resimler/m4-competition-exterior-right-front-three-quarter-3.avif);
+  background-size: cover;
+  background-position: center;
+  border: 10px ridge #000000;
+  opacity: 1;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 30px;
+}
+.m5background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(resimler/2021-bmw-m5-m5-competition-3.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 10px ridge #000000;
+  opacity: 1;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 30px;
+}
+.m6background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(resimler/2013_BMW_M6_coupe_--_2012_NYIAS.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 10px ridge #000000;
+  opacity: 1;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 30px;
+}
+.m8background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(resimler/hqm8720.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 30px;
+  border: 10px ridge #000000;
+}
+.video-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(resimler/M.png);
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  border: 10px ridge #170063;
+}
+
+
+
+
+.ilkarkaplan {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(resimler/P90548593_highRes_the-all-new-bmw-m4-c-1.avif);
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.m4basresim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* resimler arasındaki boşluk */
+    margin-top: 20px; /* üstten boşluk */
+    margin-bottom: 20px;
+    
+}
+.form-tasarim{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(resimler/asSAS.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px;
+   
+}
+
+
+
+.model-opsiyon {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+
+.model-opsiyon input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+
+.ozel-daire {
+  width: 24px;
+  height: 24px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  display: inline-block;
+  background-color: transparent;
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.2s ease;
+}
+
+
+.model-opsiyon input[type="radio"]:checked + .ozel-daire
+{
+  background-image: url(resimler/WhatsApp-Image-2026-07-02-at-15.41.png);
+  border-color: #0095ff;
+}
+
+.tasarim-baslik{
+  color: #ffffff;
+  text-shadow: 2px 2px 3px rgb(49, 49, 49);
+  word-spacing: 3px;
+  
+}
+
+#canavar{
+  font-family: 'ProRacing', sans-serif;
+}
+
+.kisisel-bilgiler input{
+
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+  color: white;
+  
+}
+
+.kisisel-bilgiler input::placeholder {
+
+color: rgba(255, 255, 255, 0.5);
+}
+
+.alt-baslik{
+  font-family: 'Orbitron', sans-serif;
+
+}
+.etiket {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.arac-renk{
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+  color: rgb(179, 179, 179);
+}
+
+
+
+.ic-kombin{
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+  color: rgb(194, 194, 194);
+}
+
+#alpine{
+  background-color: rgb(235, 240, 249);
+  color: rgb(0, 0, 0);
+}
+#black-sapphire{
+  background-color: rgb(59, 63, 82);
+  color: rgb(0, 0, 0);
+}
+
+#san-marino{
+  background-color: rgb(98, 181, 229);
+  color: rgb(0, 0, 0);
+}
+
+#toronto-red{
+  background-color: rgb(206, 17, 65);
+  color: rgb(0, 0, 0);
+}
+
+#frozen-deep-green{
+  background-color: rgb(14, 38, 26);
+  color: rgb(0, 0, 0);
+}
+
+#baby-blue{
+  background-color: rgb(137, 207, 240);
+  color: rgb(0, 0, 0);
+}
+
+#sao-paulo-yellow{
+  background-color: rgb(240, 180, 0);
+  color: rgb(0, 0, 0);
+}
+
+.conteiner {
+  
+  display: flex;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.kutu{
+  
+  flex: 1;
+  height: 300px;
+  background-position: center 0%;
+  /* background-position: center calc(50% - 20px);
+  background-position: center top 30px; bu ikiside ortayq cektigimiz fotografın yukarı assagı hareketini saglar */
+  display: flex;
+  flex-direction: column;   
+  align-items: center;    /*yatay ortalama */         /* justify-content dikey ortalama */
+  
+  
+}
+
+.kutu1{
+  background-color: rgb(255, 255, 255);
+  background-image: url(resimler/online_rezerve_transparent.png);
+  background-repeat: no-repeat;
+  
+}
+.kutu2{
+  background-color: rgb(255, 255, 255);
+  background-image: url(resimler/fiyat_transparent.png);
+  background-repeat: no-repeat;
+ 
+}
+
+.kutu3{
+  background-color: rgb(255, 255, 255);
+  background-image: url(resimler/ayin_ozellikleri_transparent.png);
+  background-repeat: no-repeat;
+ 
+}
+
+
+.kutu4{
+  background-color: rgb(255, 255, 255);
+  background-image: url(resimler/canli_destek_transparent.png);
+  background-repeat: no-repeat;
+  
+ 
+}
+
+.kutu-baslik{
+  padding-top: 100px;
+  text-align: center ;
+  font-family:'WalkwayUltraBold', sans-serif;
+  font-size: 25px;
+}
+
+.ic-kutu{
+  background: linear-gradient(152deg, #81c4ff 11%, #16588e 46%, #e7222e 93%);
+  width: 90%;
+  height: 65px;
+  border: 1px solid #000000;
+  position: center;
+  margin: 0 auto;
+   
+}
+
+.ic-kutu-yazi{
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  
+  
+}
+
+.kutu-link{
+  display: block;
+  text-decoration: none;
+  width: 90%;
+  height: 65px;
+  position: center;
+  margin: 0 auto;
+}
+
+.kutu-link:hover .ic-kutu{
+  box-shadow: inset 0px -1px 14px 1px rgba(0, 0, 0, 1.00);
+  border-radius: 10px;
+  
+}
